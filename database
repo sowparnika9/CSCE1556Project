@@ -94,7 +94,7 @@ CREATE TABLE IF NOT EXISTS Item (
 -- Table InvoiceItem
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS InvoiceItem (
-  invoiceitemId INT Primary Key NOT NULL AUTO_INCREMENT,
+  invoiceItemId INT Primary Key NOT NULL AUTO_INCREMENT,
   purchasePrice INT,
   leaseRate INT,
   startDate varchar(255),
@@ -238,29 +238,29 @@ INSERT INTO Item(itemId,itemCode,type,name,hourlyRate) VALUES (14,'d4r1c7d','S',
 -- -----------------------------------------------------
 -- Insert InvoiceItem --> Purchase
 -- -----------------------------------------------------
-INSERT INTO InvoiceItem(invoiceitemId,invoiceId,itemId,purchasePrice) VALUES (1,1,1,25000);
-INSERT INTO InvoiceItem(invoiceitemId,invoiceId,itemId,purchasePrice) VALUES (2,3,4,20000);
-INSERT INTO InvoiceItem(invoiceitemId,invoiceId,itemId,purchasePrice) VALUES (3,2,5,525000);
-INSERT INTO InvoiceItem(invoiceitemId,invoiceId,itemId,purchasePrice) VALUES (4,4,3,15000);
+INSERT INTO InvoiceItem(invoiceItemId,invoiceId,itemId,purchasePrice) VALUES (1,1,1,25000);
+INSERT INTO InvoiceItem(invoiceItemId,invoiceId,itemId,purchasePrice) VALUES (2,3,4,20000);
+INSERT INTO InvoiceItem(invoiceItemId,invoiceId,itemId,purchasePrice) VALUES (3,2,5,525000);
+INSERT INTO InvoiceItem(invoiceItemId,invoiceId,itemId,purchasePrice) VALUES (4,4,3,15000);
 
 
 -- -----------------------------------------------------
 -- Insert InvoiceItem --> Lease
 -- -----------------------------------------------------
-INSERT INTO InvoiceItem(invoiceitemsId,invoiceId,itemId,leaseRate,startDate,endDate) VALUES (5,1,2,4200,'2020-02-15','2022-03-15');
-INSERT INTO InvoiceItem(invoiceitemsId,invoiceId,itemId,leaseRate,startDate,endDate) VALUES (6,3,5,5000,'2021-04-19','2022-02-12');
-INSERT INTO InvoiceItem(invoiceitemsId,invoiceId,itemId,leaseRate,startDate,endDate) VALUES (7,4,1,7500,'2022-06-16','2022-10-29');
+INSERT INTO InvoiceItem(invoiceItemId,invoiceId,itemId,leaseRate,startDate,endDate) VALUES (5,1,2,4200,'2020-02-15','2022-03-15');
+INSERT INTO InvoiceItem(invoiceItemId,invoiceId,itemId,leaseRate,startDate,endDate) VALUES (6,3,5,5000,'2021-04-19','2022-02-12');
+INSERT INTO InvoiceItem(invoiceItemId,invoiceId,itemId,leaseRate,startDate,endDate) VALUES (7,4,1,7500,'2022-06-16','2022-10-29');
 
 
 -- -----------------------------------------------------
 -- Insert InvoiceItem --> Product
 -- -----------------------------------------------------
-INSERT INTO invoiceItem(invoiceitemId,invoiceId,itemId,quantity) VALUES (8,2,8,157);
-INSERT INTO invoiceItem(invoiceitemId,invoiceId,itemId,quantity) VALUES (9,3,9,75);
+INSERT INTO InvoiceItem(invoiceItemId,invoiceId,itemId,quantity) VALUES (8,2,8,157);
+INSERT INTO InvoiceItem(invoiceItemId,invoiceId,itemId,quantity) VALUES (9,3,9,75);
 
 
 -- -----------------------------------------------------
 -- Insert InvoiceItem --> Service
 -- -----------------------------------------------------
-INSERT INTO invoiceItem(invoiceitemId,invoiceId,itemId,hoursBilled) VALUES (10,1,12,5);
+INSERT INTO InvoiceItem(invoiceItemId,invoiceId,itemId,hoursBilled) VALUES (10,1,12,5);
 
