@@ -262,5 +262,5 @@ INSERT INTO invoiceItem(invoiceitemId,invoiceId,itemId,quantity) VALUES (9,3,9,7
 -- -----------------------------------------------------
 -- Insert InvoiceItem --> Service
 -- -----------------------------------------------------
-INSERT INTO invoiceItem(invoiceitemId,invoiceId,itemId,hoursBilled) VALUES (10,1,12,5);
+INSERT INTO InvoiceItem(invoiceitemId,invoiceId,itemId,hoursBilled) VALUES (10,1,12,5);
 
