@@ -12,14 +12,14 @@ public class Product extends Item {
 	private double unitPrice;
 	private double quantity;
 
-	public Product(String code, String name, String type, String unit, double unitPrice) {
-		super(code, name, type);
+	public Product(String code, String name, String unit, double unitPrice) {
+		super(code, name);
 		this.unit = unit;
 		this.unitPrice = unitPrice;
 	}
 
-	public Product(String code, String name, String type, String unit, double unitPrice, double quantity) {
-		super(code, name, type);
+	public Product(String code, String name, String unit, double unitPrice, double quantity) {
+		super(code, name);
 		this.unit = unit;
 		this.unitPrice = unitPrice;
 		this.quantity = quantity;
@@ -44,22 +44,25 @@ public class Product extends Item {
 	}
 
 	@Override
+	//Calculates the taxes of the product
 	public double getTaxes() {
 		return Math.round(getTotal() * 0.0715 * 100)/ 100.0;
 	}
 
+	//Calculates the total with respect to the quantity purchased along with the unit price.
 	@Override
 	public double getTotal() {
 		return Math.round(unitPrice * quantity * 100)/100.0;
 	}
 
+	//Calculates the grand total which includes total along with taxes
 	public double getGrandTotal() {
 		return getTotal() + getTaxes();
 
 	}
 
 	@Override
-	public String ItemInfotoString() {
+	public String itemInfoToString() {
 		return (String.format("\n%s    (Product)  %s\n 		%.2f @ $%.2f / %s		\n\t\t\t\t\t\t\t\t$ %.2f", 
 				this.getCode(), 
 				this.getName(),

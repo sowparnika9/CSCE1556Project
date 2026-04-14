@@ -15,7 +15,7 @@ public class Person {
 	private String lastName;
 	private String firstName;
 	private Address address;
-	private List<String> email;
+	private List<String> emails;
 	
 	public Person(String personCode, String lastName, String firstName, Address addressP, List<String> email) {
 		super();
@@ -23,7 +23,7 @@ public class Person {
 		this.lastName = lastName;
 		this.firstName = firstName;
 		this.address = addressP;
-		this.email = email;
+		this.emails = email;
 	}	
 	public String getPersonCode() {
 		return personCode;
@@ -38,9 +38,7 @@ public class Person {
 		return lastName + "," + firstName;
 	}
 	
-	
-	public String PersonInfotoString() {
-		return (String.format("%s  (%s : [%s]\n  %s", this.getName(), this.getPersonCode(), this.email, this.address.DatetoString() ));
+	public String personInfoToString() {
+		return (String.format("%s  (%s : %s)\n  %s", this.getName(), this.getPersonCode(), this.emails, this.address.dateToString() ));
 	}
 }	
-

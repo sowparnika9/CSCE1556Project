@@ -42,7 +42,7 @@ public class Address {
 		return country;
 	}
 	
-	public String DatetoString() {
+	public String dateToString() {
 		return (String.format("\t%s\n \t%s %s %s %s", this.getStreet(), this.getCity(), this.getState(), this.getZip(), this.getCountry()));
 	}
 	

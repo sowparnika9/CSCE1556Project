@@ -11,9 +11,8 @@ package com.fmt;
 public class Equipment extends Item {
 	private String model;
 
-	public Equipment(String code, String name, String type, String model) {
-		super(code, name, type);
-
+	public Equipment(String code, String name, String model) {
+		super(code, name);
 		this.model = model;
 	}
 
@@ -37,9 +36,8 @@ public class Equipment extends Item {
 	}
 
 	@Override
-	public String ItemInfotoString() {
+	public String itemInfoToString() {
 		return null;
 	}
 
-	
 }

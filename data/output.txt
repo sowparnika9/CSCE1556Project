@@ -1,146 +1,154 @@
-+----------------------------------------------------------------------------------------+
-| Summary Report - By Total                                                              |
-+----------------------------------------------------------------------------------------+
-Invoice #  Store      Customer                      Num Items         Tax       Total
-INV001     vdf841     Felstead,Hendrik                  3         $ 1589.38  $ 134239.38
-INV002     e3544f     Levi,Steve                        2         $  561.28  $ 533411.28
-INV003     wofg74     Artois,Danni                      3         $ 2681.25  $  65181.25
-INV004     drf1sd     Pavia,Clim                        2         $  500.00  $  49500.00
-+----------------------------------------------------------------------------------------+
-                                                       10         $  5331.91 $ 782331.91
++----------------------------------------------------------------------------------------------+
+| Summary Report - By Total                                                                    |
++----------------------------------------------------------------------------------------------+
+Invoice #       Store        Customer                 Num Items          Tax           Total
+
+INV002          e3544f       Levi,Steve                   2           $  561.28    $  533411.28
+INV001          vdf841       Felstead,Hendrik             3           $ 1543.13    $  134193.13
+INV003          wofg74       Artois,Danni                 3           $ 3181.25    $  110681.25
+INV004          drf1sd       Pavia,Clim                   2           $  500.00    $   49500.00
++----------------------------------------------------------------------------------------------+
+
+                                                          10          $ 5785.66    $  827785.66
+
++---------------------------------------------------------------------------+
+| Store Sales Summary Report                                                |
++---------------------------------------------------------------------------+
+Store      Manager                    #Sales            Grand Total
+
+e3544f     Bercher,Gardiner   		    1    	     	$ 533411.28         
+wofg74     Bercher,Gardiner   		    1    		    $ 110681.25         
+drf1sd     Bercher,Gardiner   		    1    	     	$ 49500.00         
+843fhe     Bercher,Gardiner   		    0    	     	$ 0.00         
+vdf841     Felstead,Hendrik   		    1    	    	$ 134193.13         
+2rhybg     Felstead,Hendrik   		    0    	    	$ 0.00         
+mge8gh     Lowdwell,Bondie   		    0    	    	$ 0.00         
+1ew84f     Pavia,Clim   		        0    	    	$ 0.00         
+e51f4e     Pavia,Clim   		        0    	     	$ 0.00         
+1rg48e     Squibbs,Clemmie   		    0    	    	$ 0.00         
++---------------------------------------------------------------------------+
+
+                                      4          	    $ 827785.66
 
 
-+---------------------------------------------------------------------+
-| Store Sales Summary Report                                          |
-+---------------------------------------------------------------------+
-Store      Manager                        # Sales    Grand Total    
-vdf841     Felstead,Hendrik                   1          $ 134239.38
-843fhe     Bercher,Gardiner                   0          $      0.00
-mge8gh     Lowdwell,Bondie                    0          $      0.00
-wofg74     Bercher,Gardiner                   1          $  65181.25
-2rhybg     Felstead,Hendrik                   0          $      0.00
-e3544f     Bercher,Gardiner                   1          $ 533411.28
-drf1sd	   Bercher,Gardiner                   1          $  49500.00
-1ew84f	   Pavia,Clim                         0          $      0.00
-1rg48e	   Squibbs,Clemmie                    0          $      0.00
-e51f4e	   Pavia,Clim                         0          $      0.00
-+---------------------------------------------------------------------+
-                                              4          $ 782331.91
 
-
-Invoice  #INV001
-Store    #vdf841
+Invoice   INV001
+Store     vdf841
 Date      2022-03-17
+Customer:   
+Felstead,Hendrik  (mit7pu : [hfelstead0@oaic.gov.au])
+  	2438 Norway Maple Lane
+ 	Lakehaven OR 54164 US
 
-Customer: 
-Felstead,Hendrik (mit7pu : [hfelstead0@oaic.gov.au])
-	2438 Norway Maple Lane
-	Lakehaven OR 54164 AL
 
-Sales Person: 
-Sollitt,Judd (ap12yq : [jsollitt1@telegraph.co.uk, bfalkous1o@altervista.org])
-	5 Fair Oaks Hill
-	Courdale UT 11348 BT
+Sales Person:
+Sollitt,Judd  (ap12yq : [jsollitt1@telegraph.co.uk, bfalkous1o@altervista.org])
+  	5 Fair Oaks Hill
+ 	Courdale UT 11348 US
+Item                                                             Total
++---------------------------------------------------------------------------+
 
-Item                                                               Total
--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-                          -=-=-=-=-=-
-3ceiq6          (Purchase) ATV-Commander 400cc 
-                                                             $  25000.00
-ii0wm9          (Lease)  Trailers-MCOS 455 
-	760 days (2020-02-15 -> 2022-03-15) @ $4200.00/ 30 days
-                                                             $ 106400.00                                                             
-dc4ef4e         (Service)  Farm Consulting Services 
-	5 hours @ $250.00/hr
-                                                             $   1250.00
-                                                             
-                                                             -=-=-=-=-=-
-                                                    Subtotal $ 132650.00
-                                                         Tax $   1589.38
-                                                 Grand Total $ 134239.38
-                                                 
-                                                 
-Invoice  #INV002
-Store    #e3544f
+3ceiq6     (Purchase)    ATV-Commander 400cc        
+							       							   $ 25000.00
+ii0wm9     (Lease)     Trailers-MCOS 455      
+  760 days	(2020-02-15 --> 2022-03-15) @ $4200.00 / 30 days				
+							     						       $ 106400.00
+dc4ef4e    (Service)    Farm Consulting Services     
+ 	   5.00 hours @ 250.00/hr			
+							       						       $ 1250.00
++---------------------------------------------------------------------------+
+
+                                                    SubTotal: $  132650.00
+                                                         Tax: $    1543.13
+                                                  GrandTotal: $  134193.13
+ 
+
+
+Invoice   INV002
+Store     e3544f
 Date      2022-05-29
-Customer: 
+Customer:   
+Levi,Steve  (zx0r6a : [null])
+  	60 Armistice Lane
+ 	Rockmary OK 64429 IN
 
-Levi,Steve (zx0r6a : [])
-	60 Armistice Lane
-	Rockmary OK 64429 AS
-Sales Person: 
-Squibbs,Clemmie (qc6uid : [csquibbs4@psu.edu])
-	65 High Crossing Court
-	Rosville FM 17477 RO
 
-Item                                                               Total
--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-                          -=-=-=-=-=-
-07924a4         (Product) Seeds         
-	157 @ $50.00/kgs
-                                                             $   7850.00
-98a0wI         (Purchase) Seeder - BET56         
-                                                             $ 525000.00
+Sales Person:
+Squibbs,Clemmie  (qc6uid : [csquibbs4@psu.edu])
+  	65 High Crossing Court
+ 	Rosville FL 17477 US
+Item                                                             Total
++---------------------------------------------------------------------------+
 
-                                                             -=-=-=-=-=-
-                                                    Subtotal $ 532850.00
-                                                         Tax $    561.28
-                                                 Grand Total $ 533411.28
-                                                 
-                                                 
-Invoice  #INV003
-Store    #wofg74
+98a0wI     (Purchase)    Seeder-BET56        
+							       							  $ 525000.00
+07924a4    (Product)  Seeds
+ 		157.00 @ $50.00 / kilos		
+															  $ 7850.00
++---------------------------------------------------------------------------+
+
+                                                    SubTotal: $  532850.00
+                                                         Tax: $    561.28
+                                                  GrandTotal: $  533411.28
+ 
+
+
+Invoice   INV003
+Store     wofg74
 Date      2022-10-01
+Customer:   
+Artois,Danni  (jf62we : [dartoisd@facebook.com, nvassman1p@paypal.com])
+  	8641 Melvin Park
+ 	North Sudton SD 22777 US
 
-Customer: 
-Artois,Danni (jf62we : [dartoisd@facebook.com, nvassman1p@paypal.com])
-	8641 Melvin Park
-	North Sudton GU 22777 CR
 
-Sales Person: 
-Lowdwell,Bondie (x3mi36 : [blowdwella@who.int])
-	51325 Oakridge Plaza
-	Arlington NM 15967 SC
+Sales Person:
+Lowdwell,Bondie  (x3mi36 : [blowdwella@who.int])
+  	51325 Oakridge Plaza
+ 	Arlington NM 15967 US
+Item                                                             Total
++---------------------------------------------------------------------------+
 
-Item                                                               Total
--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-                          -=-=-=-=-=-
-68ksks          (Purchase) Harrow-CAD1000 
-                                                             $  20000.00
-98a0wI          (Lease)  Seeder-BET56 
-	300 days (2021-04-19 -> 2022-02-12) @ $500.00/ 30 days
-                                                             $   5000.00                                                             
-0sE3hxp         (Product)  Protective Gear 
-	75 @ $500.00/lbs
-                                                             $  37500.00
+68ksks     (Purchase)    Harrow-CAD1000        
+							       							  $ 20000.00
+98a0wI     (Lease)     Seeder-BET56      
+  300 days	(2021-04-19 --> 2022-02-12) @ $5000.00 / 30 days				
+							       							  $ 50000.00
+0sE3hxp    (Product)  Protective Gear
+ 		75.00 @ $500.00 / pounds		
+															  $ 37500.00
++---------------------------------------------------------------------------+
 
-                                                             -=-=-=-=-=-
-                                                    Subtotal $  62500.00
-                                                         Tax $   2681.25
-                                                 Grand Total $  65181.25
-                                                 
-                                                 
-Invoice  #INV004
-Store    #drf1sd
+                                                    SubTotal: $  107500.00
+                                                         Tax: $    3181.25
+                                                  GrandTotal: $  110681.25
+ 
+
+
+Invoice   INV004
+Store     drf1sd
 Date      2022-07-09
-Customer: 
+Customer:   
+Pavia,Clim  (t3liq2 : [cpavia6@ask.com])
+  	233 Dwight Park
+ 	Valbury FL 66200 US
 
-Pavia,Clim (t3liq2 : [cpavia6@ask.com])
-	233 Dwight Park
-	Valbury FR 66200 GP
 
-Sales Person: 
-Curston,Julianna (b284fm : [jcurston5@nasa.gov, llabrom1q@ihg.com])
-	9 Ridgeview Parkway
-	Bidborn GI 41438 MQ
+Sales Person:
+Curston,Julianna  (b284fm : [jcurston5@nasa.gov, llabrom1q@ihg.com])
+  	9 Ridgeview Parkway
+ 	Bidborn GA 41438 US
+Item                                                             Total
++---------------------------------------------------------------------------+
 
-Item                                                               Total
--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-                          -=-=-=-=-=-
-oqofr4          (Purchase) Fertilizer Spreaders-T20 
-                                                             $  15000.00
-3ceiq6          (Lease)  ATV-Commander 400cc
-	136 days (2022-06-16 -> 2022-10-29) @ $7500.00/ 30 days
-                                                             $  34000.00 
-                                                             
-                                                             -=-=-=-=-=-
-                                                    Subtotal $  49000.00
-                                                         Tax $    500.00
-                                                 Grand Total $  49500.00
-                                                 
+oqofr4     (Purchase)    Fertilizer Spreaders-T20        
+							       							   $ 15000.00
+3ceiq6     (Lease)     ATV-Commander 400cc      
+  136 days	(2022-06-16 --> 2022-10-29) @ $7500.00 / 30 days				
+							       							   $ 34000.00
++---------------------------------------------------------------------------+
+
+                                                    SubTotal: $  49000.00
+                                                         Tax: $    500.00
+                                                  GrandTotal: $  49500.00
+ 

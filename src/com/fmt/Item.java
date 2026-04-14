@@ -9,16 +9,12 @@ package com.fmt;
  */
 public abstract class Item {
 	private String code;
-	private String name;
-	private String type;
-////////////////REMOVE GET TYPE^^^^^///////////////////////////
+	private String name;	
 	
-	
-	public Item(String code, String name,String type) {
+	public Item(String code, String name) {
 		super();
 		this.code = code;
 		this.name = name;
-		this.type = type;
 	}
 
 	public String getCode() {
@@ -29,10 +25,6 @@ public abstract class Item {
 		return name;
 	}
 	
-	public String getType() {
-		return type;
-	}
-
 	public abstract double getTaxes();
 
 	public abstract double getTotal();
@@ -41,6 +33,6 @@ public abstract class Item {
 		return getTaxes() + getTotal();
 	};
 	
-	public abstract String ItemInfotoString();
+	public abstract String itemInfoToString();
 	
 }
